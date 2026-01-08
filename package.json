@@ -13,8 +13,8 @@
     "react-dom": "^19.2.3",
     "lucide-react": "^0.562.0",
     "clsx": "^2.1.1",
-    "framer-motion": "^12.24.12",
-    "tailwind-merge": "^3.4.0"
+    "tailwind-merge": "^3.4.0",
+    "framer-motion": "^12.24.12"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",

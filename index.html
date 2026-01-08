@@ -1,35 +1,56 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>A&A Consultoras SST | Medellín | Seguridad y Salud en el Trabajo</title>
+
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
     <style>
-        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
-        .bg-sst-blue { background-color: #003366; }
-        .text-sst-blue { color: #003366; }
-        .border-sst-blue { border-color: #003366; }
-        .bg-sst-yellow { background-color: #FFD700; }
-        .text-sst-yellow { color: #FFD700; }
+      body {
+        font-family: "Inter", sans-serif;
+        scroll-behavior: smooth;
+      }
+      .bg-sst-blue {
+        background-color: #003366;
+      }
+      .text-sst-blue {
+        color: #003366;
+      }
+      .border-sst-blue {
+        border-color: #003366;
+      }
+      .bg-sst-yellow {
+        background-color: #ffd700;
+      }
+      .text-sst-yellow {
+        color: #ffd700;
+      }
     </style>
-<script type="importmap">
+  <script type="importmap">
 {
   "imports": {
-    "react/": "https://esm.sh/react@^19.2.3/",
     "react": "https://esm.sh/react@^19.2.3",
     "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
     "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
     "clsx": "https://esm.sh/clsx@^2.1.1",
-    "framer-motion": "https://esm.sh/framer-motion@^12.24.12",
-    "tailwind-merge": "https://esm.sh/tailwind-merge@^3.4.0"
+    "tailwind-merge": "https://esm.sh/tailwind-merge@^3.4.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.24.12"
   }
 }
 </script>
 </head>
-<body class="bg-slate-50 text-slate-900">
+
+  <body class="bg-slate-50 text-slate-900">
     <div id="root"></div>
-</body>
+
+    <!-- IMPORTANTE: esto arranca tu app React -->
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>
